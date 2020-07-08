@@ -1,0 +1,46 @@
+$gutter: 20px;
+
+body {
+  display: flex;
+  margin: 0;
+  margin-top: $gutter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #53382a;
+  margin: 0;
+}
+
+
+.left {
+  $img-size: 140px;
+
+  margin: $gutter;
+  width: 30%;
+
+  &__img {
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 100%;
+      width: $img-size;
+      border-radius: 50%;
+      border: 5px white solid;
+    }
+  }
+
+  &__contact {
+    margin-top: -$img-size / 2;
+    background: #885c431a;
+    padding: $gutter;
+    padding-top: $img-size / 2 + $gutter;
+    border-radius: 5px;
+  }
+}
+
+.right {
+  margin: $gutter;
+
+}

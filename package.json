@@ -1,0 +1,24 @@
+{
+  "name": "project-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/scss:src/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vavra7/project-puppeteer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vavra7/project-puppeteer/issues"
+  },
+  "homepage": "https://github.com/vavra7/project-puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^5.0.0",
+    "sass": "^1.26.10"
+  }
+}

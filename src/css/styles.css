@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  margin: 0;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #53382a;
+  margin: 0;
+}
+
+.left {
+  margin: 20px;
+  width: 30%;
+}
+.left__img {
+  display: flex;
+  justify-content: center;
+}
+.left__img img {
+  max-width: 100%;
+  width: 140px;
+  border-radius: 50%;
+  border: 5px white solid;
+}
+.left__contact {
+  margin-top: -70px;
+  background: #885c431a;
+  padding: 20px;
+  padding-top: 90px;
+  border-radius: 5px;
+}
+
+.right {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
