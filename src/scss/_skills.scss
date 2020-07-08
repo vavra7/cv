@@ -1,0 +1,38 @@
+.skills {
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    .item {
+      display: flex;
+      flex-grow: 1;
+      margin-top: 5px;
+    }
+
+    .rating {
+      $size: 13px;
+
+      display: flex;
+      flex-grow: 1;
+      justify-content: flex-end;
+      align-items: center;
+
+      div {
+        width: $size;
+        height: $size;
+        background: $light;
+        border-radius: 50%;
+        margin-left: 5px;
+
+        &.empty {
+          $border: 2px;
+
+          background: white;
+          width: $size - $border * 2;
+          height: $size - $border * 2;
+          border: solid $border;
+        }
+      }
+    }
+  }
+}

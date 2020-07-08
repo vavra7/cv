@@ -1,23 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
     <div class="left">
       <div class="left__img">
-        <img src="./assets/test.jpg" >
+        <img src="./assets/test.jpg" />
       </div>
 
       <div class="left__contact">
-        <h3>Contact</h3>
+        <h2>Kontakt</h2>
+
+        <div class="item">
+          <i class="icon-phone-alt"></i>
+          <span>+420 770 196 982</span>
+        </div>
+
+        <div class="item">
+          <i class="icon-envelope"></i>
+          <span>tomas.vavrinka@seznam.cz</span>
+        </div>
+
+        <div class="item">
+          <i class="icon-map-marker-alt"></i>
+          <span>Hradec Králové</span>
+        </div>
+      </div>
+
+      <div class="left__education">
+        <h2>Vzdělání</h2>
+        <h3>Univerzita Hradec Králové</h3>
+        <div>Získán Bakalářský titul v oboru informační management.</div>
+        <div>2016</div>
+      </div>
+
+      <div class="left__languages">
+        <h2>Jazyky</h2>
+        <h3>Angličtina</h3>
+        <div>Velmi dobrá</div>
+        <div>(Přes rok života v zahraničí)</div>
+      </div>
+
+      <div class="left__skills skills">
+        <h2 class="skills__header">Schopnosti</h2>
+
+        <div class="skills__content">
+          <div class="item">
+            <div class="description">
+              Front end
+            </div>
+            <div class="rating">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="description">
+              Back end
+            </div>
+            <div class="rating">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div class="empty"></div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="description">
+              Dev Ops
+            </div>
+            <div class="rating">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div class="empty"></div>
+              <div class="empty"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <div class="right">
-      <h1>Tomáš Vavřinka</h1>
+      <div class="right__header">
+        <h1>Bc. Tomáš Vavřinka</h1>
+
+        <div class="sep"></div>
+
+        <span>JavaScript / TypeScript full stack developer</span>
+      </div>
+
+      <div class="right__experience">
+        <h2>Pracovní zkušenosti</h2>
+
+        <div class="sep"></div>
+
+        <div class="item">
+          <h3>Front end developer</h3>
+          <div>Hanaboso s.r.o. | živnostník | 2018 - současnost.</div>
+          <p>
+            Hlavní činnost vývoj marketplace pro síť MALLGROUP a.s. Aktuálně znovu marketplace pro síť Zásilkovna.
+          </p>
+          <ul>
+            <li>Vývoj partnerské aplikace</li>
+            <li>Práce na gateway</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>Poskytování služeb v zahraničí</h3>
+          <div>Živnostník | 2017 - 2018</div>
+          <p>
+            Zprostředkování dovolených v Indonésii na ostrově Bali.
+          </p>
+          <ul>
+            <li>Provoz e-shopu.</li>
+            <li>Práce na webech na zakázku.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>It analytik a developer</h3>
+          <div>Unicorn a.s. | živnostník | 2015 - 2017</div>
+          <p>
+            Práce na projektu Nordic Balance Settlement v oblasti energetiky pro
+            evropské země Norsko, Švédsko a Finsko. Vývoj systému Damas
+            počítající balanční odchylku v síti.
+          </p>
+          <ul>
+            <li>Zodpovědný za vývoj validačního nástroje datových struktur.</li>
+            <li>
+              Služební cesty do Finska za účelem importu struktur do systému
+              Damas.
+            </li>
+            <li>Servis systému a fix bugů.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right__technologies">
+        <h2>Technologie</h2>
+
+        <div class="sep"></div>
+
+        <div class="item">
+          <h3>JavaScript</h3>
+          <div>TypesScript</div>
+          <div>Vue - Vuetify, Vee-validate, Vuex, Vue-i18n</div>
+          <div>React - Gatsby, React App, Next.js, Redux, Formik, Yup, Apollo client, Apollo state, Gutenberg</div>
+          <div>Express.js - Apollo serve, Type-graphql, Type-orm</div>
+          <div>Ostatní - Moment.js, Popmotion, Framer Motion, Babel, Eslint, Prettier, Gulp, Yarn workspaces</div>
+        </div>
+
+        <div class="item">
+          <h3>PHP</h3>
+          <div>Wordpress, Composer</div>
+        </div>
+        
+        <div class="item">
+          <h3>Databáze</h3>
+          <div>Sqlite, Postgres, MySQL, Redis</div>
+        </div>
+        
+        
+        <div class="item">
+          <h3>Ostatní</h3>
+          <div>HTML5, CSS, Sass, Graphql, Bootstrap, Git</div>
+          <div>Linux - Ubuntu, Makefile</div>
+          <div>Virtualizace - Docker, Docker Compose</div>
+        </div>
+
+      </div>
     </div>
-</body>
+  </body>
 </html>
