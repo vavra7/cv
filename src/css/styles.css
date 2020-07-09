@@ -3983,6 +3983,7 @@ li {
   height: 2px;
   width: 50px;
   background: #886a5a;
+  margin-bottom: 20px;
 }
 
 .left {
@@ -4050,14 +4051,11 @@ li {
   font-style: italic;
   letter-spacing: 0.1em;
 }
-.right__technologies {
-  margin-top: 40px;
-}
 .right__experience {
   margin-top: 40px;
 }
 .right__experience .item {
-  margin-top: 15px;
+  margin: 25px 0;
 }
 .right__experience .item p {
   margin: 0.5em 0;
@@ -4068,6 +4066,9 @@ li {
 }
 .right__experience .item ul li {
   line-height: 1.5em;
+}
+.right__technologies {
+  margin-top: 40px;
 }
 .right__technologies .item {
   margin: 10px 0;

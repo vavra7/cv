@@ -50,6 +50,7 @@ li {
   height: 2px;
   width: 50px;
   background: $light;
+  margin-bottom: 20px;
 }
 
 .left {
@@ -131,14 +132,11 @@ li {
     }
   }
 
-  &__technologies {
-    margin-top: $gutter * 2;
-  }
-  
   &__experience {
     margin-top: $gutter * 2;
+
     .item {
-      margin-top: 15px;
+      margin: 25px 0;
 
       p {
         margin: 0.5em 0;
@@ -156,6 +154,8 @@ li {
   }
 
   &__technologies {
+    margin-top: $gutter * 2;
+
     .item {
       margin: $gutter / 2 0;
     }
